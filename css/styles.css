@@ -14,6 +14,8 @@ body{
 
 
 #main-header{
+    width: 100%;
+    height: 13.4%;
     background: #555;
     border-bottom: #ccc;
 }
@@ -21,11 +23,14 @@ body{
     background: #c91c55;
     float: left;
     width: 15%;
+    height: 100%;
 }
 .yes1-logo{
-    width: 75%;
-    height: 79px;
     text-align: center;
+    margin-top: 17px;
+    margin-left: 14px;
+    width: 86%;
+    height: 49px;
 }
 .hide-bar{
     display: none;
@@ -41,6 +46,7 @@ body{
 .li-text{
     display: inline-block;
     font-size: 15px;
+    text-align: center;
 }
 .col-2 ul{
     list-style-type: none;
@@ -75,7 +81,9 @@ input[type="text"]{
 
 
 @media only screen and (max-width: 980px){
-   
+    .col-1{
+        display: none;
+    }
     .yes1-logo{
         display: none;
     }
@@ -94,7 +102,7 @@ input[type="text"]{
         display: none;
     }
     .show-logo{
-        margin-top: 12px;
+        margin-top: 17px;
         margin-right: 55px;
         margin-bottom: 25px;
         display: block;
@@ -102,6 +110,7 @@ input[type="text"]{
         height: 38px;
         float: right;
         cursor: pointer;
+        text-align: center;
     }
     .input-search{
         display: none;
