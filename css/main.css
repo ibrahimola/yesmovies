@@ -1,0 +1,141 @@
+body{
+    background: #555 url('../imgs/yes.6.jpeg');
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+/*Global */
+.container{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#main-section{
+    margin-top: 20%;
+}
+#main-header ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+    color: #fff;
+}
+#click-home{
+    border: 1px solid #fff;
+    background: #555;
+    border-radius: 3px;
+}
+.yes-logo{
+    width: 50%;
+    height: 50px;
+}
+.form{
+    width: 100%;
+    margin:0;
+}
+.input-search{
+    margin-top: 30px;
+    padding-right: 50px;
+    padding-left: 25px;
+    height: 52px;
+    font-size: 20px;
+    width: 350px;
+    border-radius: 6px;
+}
+.submit-search{
+    position: relative;
+    right:0;
+    top:0;
+    bottom:0;
+    background:#c91c55;
+    height:44px;
+    color:#fff;
+    font-size: 33px;
+    padding: 4px;
+    border-radius: 0 5px 5px 0;
+    line-height: 1.1em;
+    width: 10%;
+}
+.click-button{
+    background:#c91c55;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 350px;
+    margin-bottom: 28%;
+}
+
+#foot-section p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 535px){
+    .click-button{
+        width: 400px;
+        margin-bottom: 24%;
+    }
+}
+@media only screen and (min-width: 701px){
+    .input-search{
+        margin-top: 30px;
+        padding-right: 50px;
+        padding-left: 25px;
+        height: 50px;
+        font-size: 20px;
+        width: 70%;
+        border-radius: 6px;
+    }
+    .submit-search{
+        height:34px;
+        font-size: 30px;
+        padding: 3px;
+        line-height: 1.0em;
+        width: 9%;
+    }
+    .click-button{
+        width: 56%;
+        margin-bottom: 18%;
+    }
+}
+@media only screen and (min-width: 815px){
+    .click-button{
+        width: 46%;
+        margin-bottom: 14%;
+    }
+}
+@media only screen and (min-width: 815px){
+    .click-button{
+        margin-top: 30px;
+        width: 360px;
+        margin-bottom: 150px;
+    }
+    .yes-logo{
+        width: 300;
+        height: 60px;
+    }
+    .input-search{
+        margin-top: 30px;
+        padding-right: 50px;
+        padding-left: 25px;
+        height: 50px;
+        font-size: 20px;
+        width: 560px;
+        border-radius: 6px;
+    }
+    .submit-search{
+        height:34px;
+        font-size: 30px;
+        padding: 3px;
+        line-height: 1.0em;
+        width: 9%;
+    }
+}
